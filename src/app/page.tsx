@@ -4,7 +4,6 @@ import { compareDesc } from "date-fns"
 import { allPosts } from "contentlayer/generated"
 import { PostListLn } from "@/components/PostListLn"
 import Photo from "@/components/Photo"
-import Todo from "@/components/Todo"
 import TodoList from "@/components/TodoList"
 
 export default function Home() {
