@@ -44,15 +44,6 @@ export default function Home() {
           <TodoList />
         </div>
 
-        <div className="mt-1 min-w-full overflow-hidden overflow-ellipsis">
-          <h2 className="text-2xl font-semibold mb-2">Blog posts</h2>
-
-          <div>
-            {posts.map((post, idx) => (
-              <PostListLn key={idx} {...post} />
-            ))}
-          </div>
-        </div>
       </div>
     </main>
   )

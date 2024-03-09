@@ -1,5 +1,6 @@
 import { PaperPlaneTilt } from "@phosphor-icons/react/dist/ssr"
 import { Redis } from "@upstash/redis"
+
 import Link from "next/link"
 
 export const revalidate = 0
