@@ -2,7 +2,7 @@ import { GithubLogo, InstagramLogo } from "@phosphor-icons/react/dist/ssr"
 import ThemeToggler from "./theme/ThemeToggler"
 import Link from "next/link"
 import Where from "./Where"
-import What from "./What"
+
 
 
 const Heading = () => {
@@ -32,10 +32,7 @@ const Heading = () => {
           <div className="inline-block">
             <ThemeToggler />
           </div>
-          <div className="inline-block">
-            <What />
-          </div>
-          
+    
         </div>
       </div>
     </div>
