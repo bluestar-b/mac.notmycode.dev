@@ -10,9 +10,6 @@ import { JetBrains_Mono } from "next/font/google"
 const JetNoBrains = JetBrains_Mono({ subsets: ["latin"] })
 
 export default function Home() {
-  const posts = allPosts
-    .sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)))
-    .slice(0, 16)
 
   return (
     <main>
