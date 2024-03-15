@@ -8,10 +8,7 @@
   --link-text-color: #df62a0;
 }
 
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);
 }
-
-

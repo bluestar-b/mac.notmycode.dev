@@ -7,7 +7,6 @@ import { JetBrains_Mono } from "next/font/google"
 const JetNoBrains = JetBrains_Mono({ subsets: ["latin"] })
 
 export default function Home() {
-
   return (
     <main>
       <div className=" mt-6 flex flex-col p-3">
@@ -37,7 +36,6 @@ export default function Home() {
           <h2 className="text-2xl font-semibold mb-2">Todos</h2>
           <TodoList />
         </div>
-
       </div>
     </main>
   )
