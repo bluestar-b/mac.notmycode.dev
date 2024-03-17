@@ -30,7 +30,7 @@ function Countdown({ targetDate }: CountdownProps) {
       {remainingTime <= 0 ? (
         <div>🤯</div>
       ) : (
-        <div className="text-lg md:text-xl font-bold">
+        <div className="text-md md:text-xl font-bold">
           {days} days, {hours} hours, {minutes} minutes, {seconds} seconds
         </div>
       )}
