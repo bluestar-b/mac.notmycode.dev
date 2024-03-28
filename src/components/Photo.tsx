@@ -14,7 +14,7 @@ const Photo = () => {
           <Image
             src={image.src}
             alt={image.alt}
-            quality={50}
+            quality={40}
             fill
             className="object-cover rounded-lg transition-opacity"
           />
